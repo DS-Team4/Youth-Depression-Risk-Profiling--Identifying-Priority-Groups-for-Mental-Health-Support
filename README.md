@@ -289,7 +289,8 @@ This folder contains the main analysis notebooks used in the project.
 
 ### `dataset/`
 
- Include dataset download link
+ Includes the dataset download link.
+
 ---
 
 ### `project_guide/`
