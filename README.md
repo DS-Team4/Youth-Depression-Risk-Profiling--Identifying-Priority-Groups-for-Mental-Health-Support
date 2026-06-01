@@ -248,10 +248,10 @@ Therefore, mental health support for young adults should not be limited to psych
 youth-depression-risk/
 │
 ├── code/
-│   ├── data_preprocessing.ipynb
+│   ├── data_preprocessing.ipynb 
 │   ├── model_logistic.ipynb
 │   ├── model_randomforest.ipynb
-│   └── model_kmeans.ipynb
+│   ├── model_kmeans.ipynb
 │   └── open_source_contribution_pipeline.ipynb
 │
 ├── dataset/
