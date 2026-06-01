@@ -45,6 +45,17 @@ Because the minority class was relatively small, the project focused more on **R
 
 ---
 
+## Academic Use Notice
+
+This project was conducted as part of the **Data Science** team project at **Gachon University**.
+
+This repository is intended for academic and educational purposes only.  
+The analysis, source code, and documentation were created to study machine learning-based classification and clustering methods using youth survey data.
+
+All rights to the original dataset and related survey materials belong to their respective data providers.
+
+---
+
 ## Methodology
 
 ### 1. Data Exploration
@@ -243,16 +254,13 @@ youth-depression-risk/
 │   └── model_kmeans.ipynb
 │
 ├── dataset/
-│   └── 2024_청년삶실태조사.csv
+│   └── README.md
 │
 ├── project_guide/
 │   ├── project_guide_korean.zip
 │   └── project_guide_english.docx
 │
-├── other/
-│   ├── 2024년_청년삶실태조사_조사표.pdf
-│   ├── 2024년_청년삶실태조사_총괄(원본).xls
-│   └── 2024년_청년삶실태조사_파일설계서.xlsx
+│
 │
 └── README.md
 ```
@@ -281,11 +289,7 @@ This folder contains the main analysis notebooks used in the project.
 
 ### `dataset/`
 
-This folder contains the dataset used for analysis.
-
-* `2024_청년삶실태조사.csv`
-  The main dataset used in the project. It contains survey responses related to young adults’ demographics, health, lifestyle, employment, economic status, and depressive symptoms.
-
+ Include dataset download link
 ---
 
 ### `project_guide/`
@@ -297,21 +301,6 @@ This folder contains the project documentation.
 
 * `project_guide_english.docx`
   English version of the project guide. It summarizes the overall methodology and findings in English.
-
----
-
-### `other/`
-
-This folder contains reference materials related to the original survey dataset.
-
-* `2024년_청년삶실태조사_조사표.pdf`
-  The original survey questionnaire. It provides the meaning of each survey question and response option.
-
-* `2024년_청년삶실태조사_총괄(원본).xls`
-  The original summary file for the 2024 Youth Life Survey.
-
-* `2024년_청년삶실태조사_파일설계서.xlsx`
-  The file layout document. It explains the structure of the dataset, including variable names, coding rules, and response categories.
 
 ---
 
