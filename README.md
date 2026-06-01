@@ -252,6 +252,7 @@ youth-depression-risk/
 │   ├── model_logistic.ipynb
 │   ├── model_randomforest.ipynb
 │   └── model_kmeans.ipynb
+│   └── open_source_contribution_pipeline.ipynb
 │
 ├── dataset/
 │   └── README.md
@@ -282,8 +283,9 @@ This folder contains the main analysis notebooks used in the project.
 * `model_randomforest.ipynb`
   Builds and evaluates the Random Forest models. It includes class imbalance handling, hyperparameter tuning, threshold adjustment, and feature importance analysis.
 
-* `model_kmeans.ipynb`
-  Performs K-means clustering using the selected important features. It explores the optimal number of clusters and analyzes depression rates by cluster.
+* `open_source_contribution_pipeline.ipynb`  
+  Provides a reusable top-level pipeline that combines preprocessing, model training/testing, hyperparameter comparison, evaluation, feature selection, and K-means clustering. It returns the top-performing model combinations and analyzes depression rates by cluster.
+  
 
 ---
 
